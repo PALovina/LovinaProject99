@@ -1,0 +1,50 @@
+body{
+    background: rgb(180, 205, 131);
+}
+
+#heading{
+    background-color: peachpuff; 
+    color: tomato; 
+    font-family: fantasy;
+    font-weight: 100;
+    height: 60px; 
+    padding-top: 10; 
+    margin-top: 0px;
+}
+#camera{
+    border: ridge;
+    height: 400px;
+    width: 450px;
+}
+.image{
+    margin: 10px;
+    padding: 15px;
+    border: groove;
+    border-color: brown;
+    border-width: 5px;
+    border-radius: 20px;
+    box-shadow: 0 6px 8px 0 rgba(131, 78, 95, 0.2);
+    height: 350px;
+    width:450px;
+    transition: transform .2s;
+}
+.image:hover{
+    transform: scale(0.9);
+    border-radius: 50px;
+    border-color: rgb(50, 42, 165);
+}
+#resultShow{
+    display: inline-flex;
+    
+}
+
+#footer{
+    position: sticky;
+    width: 100%;
+    height: 40px;
+    padding-top: 10;
+    padding-bottom: 20;
+    background: peachpuff ;
+    color: gray;
+    font-size: large;
+}
